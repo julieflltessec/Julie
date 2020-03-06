@@ -1,0 +1,100 @@
+/* Colors and fonts */
+
+body { 
+	background-color: #fff2e5;
+	color: rgb(30, 30, 30);
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+	line-height: 1,6;
+	letter-spacing: 2px;
+	font-weight: 100;
+	font-weight: lighter;
+	text-decoration: none;
+} 
+
+h1, h2, h3 {
+	font-family: 'Montserrat', sans-serif;
+}
+h1 {
+	color: #b7472a;
+	font-size: 32px;
+}
+h2 {
+	color: #b7472a;
+	font-size: 24px;
+	font-weight: lighter;
+}
+a {
+	text-decoration: none;
+	color: #b7472a;
+	font-weight: bold;
+}
+a:hover {
+	color: #fff2e5;
+}
+
+.img-circle {
+	border-radius: 50%
+}
+#banner h1 {
+	color: white;
+}
+
+
+
+/* Custom design with class (99% of your design) */
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0;
+	text-align: center;
+}
+
+@media (max-width: 760px) {
+	.container{
+		width: 600px
+	}
+}
+
+
+@media (max-width: 500px) {
+	.container{
+		width: 400px
+	}
+}
+
+.btn-blue {
+	background-color: #b7472a;
+	color: white;
+	padding: 8px 8px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: white;
+	color: #b7472a;
+ }
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px; 
+}
+
+.list-inline li {
+	display: inline;
+	padding: 20px;
+	font-size: 50px
+}
+
+
+
+
+
+
